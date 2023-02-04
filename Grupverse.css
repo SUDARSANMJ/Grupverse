@@ -1,0 +1,41 @@
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    margin: 0;
+}
+
+.post-author {
+    margin: 0;
+    font-style: italic;
+}
+
+.post-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.like-button,
+.comment-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.like-button:hover,
+.comment-button:hover {
+    background-color: #ccc;
+}
